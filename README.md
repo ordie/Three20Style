@@ -35,8 +35,9 @@ Quartz 2D提供的API基本上都是纯C形式的，没有面向对象的封装�
 2 TTStyle类被实现为一个链表，这样就可以构造一个style链表，因为一个复杂效果经常是由一组简单效果叠加而成的。这非常类似于Photoshop的图层概念，一个复杂的图片是由好多图层叠加而成。例如下面的代码实现一个有两个圆角的矩形：
 ```objective-c
 // Partially rounded rectangle
-[TTShapeStyle styleWithShape:
+[TTShapeStyle styleWithShape:  // 构造第一个style：一个圆角矩形，其中两个角的半径为0（直角）
  [TTRoundedRectangleShape shapeWithTopLeft:0 topRight:0 bottomRight:10 bottomLeft:10] next:
-  [TTSolidFillStyle styleWithColor:[UIColor whiteColor] next:
-   [TTSolidBorderStyle styleWithColor:black width:1 next:nil]]],
+  [TTSolidFillStyle styleWithColor:[UIColor whiteColor] next:  // 构造第二个style：用白色填充这个圆角矩形
+   [TTSolidBorderStyle styleWithColor:black width:1 next:nil]]],  // 构造第三个style：围绕这个圆角矩形画一个像素宽的边
 ```
+  最终的效果：
