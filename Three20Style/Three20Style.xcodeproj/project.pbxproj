@@ -1,0 +1,918 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03EA924819935D0700C459D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03EA924719935D0700C459D5 /* Foundation.framework */; };
+		03EA925619935D0700C459D5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03EA925519935D0700C459D5 /* XCTest.framework */; };
+		03EA925719935D0700C459D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03EA924719935D0700C459D5 /* Foundation.framework */; };
+		03EA925919935D0700C459D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03EA925819935D0700C459D5 /* UIKit.framework */; };
+		03EA925C19935D0700C459D5 /* libThree20Style.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03EA924419935D0700C459D5 /* libThree20Style.a */; };
+		03EA926219935D0800C459D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03EA926019935D0800C459D5 /* InfoPlist.strings */; };
+		03EA926419935D0800C459D5 /* Three20StyleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA926319935D0800C459D5 /* Three20StyleTests.m */; };
+		03EA92F219935D7500C459D5 /* TTBoxStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA927A19935D7400C459D5 /* TTBoxStyle.m */; };
+		03EA92F319935D7500C459D5 /* TTDefaultStyleSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA927C19935D7400C459D5 /* TTDefaultStyleSheet.m */; };
+		03EA92F419935D7500C459D5 /* TTInnerShadowStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA928119935D7400C459D5 /* TTInnerShadowStyle.m */; };
+		03EA92F519935D7500C459D5 /* TTInsetStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA928319935D7400C459D5 /* TTInsetStyle.m */; };
+		03EA92F619935D7500C459D5 /* TTLinearGradientBorderStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA928519935D7400C459D5 /* TTLinearGradientBorderStyle.m */; };
+		03EA92F719935D7500C459D5 /* TTRectangleShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA928919935D7400C459D5 /* TTRectangleShape.m */; };
+		03EA92F819935D7500C459D5 /* TTRoundedLeftArrowShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA928B19935D7400C459D5 /* TTRoundedLeftArrowShape.m */; };
+		03EA92F919935D7500C459D5 /* TTRoundedRectangleShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA928C19935D7400C459D5 /* TTRoundedRectangleShape.m */; };
+		03EA92FA19935D7500C459D5 /* TTShadowStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA928E19935D7400C459D5 /* TTShadowStyle.m */; };
+		03EA92FB19935D7500C459D5 /* TTShapeStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA929019935D7400C459D5 /* TTShapeStyle.m */; };
+		03EA92FC19935D7500C459D5 /* TTStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA929419935D7400C459D5 /* TTStyle.m */; };
+		03EA92FD19935D7500C459D5 /* TTBevelBorderStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA929819935D7400C459D5 /* TTBevelBorderStyle.m */; };
+		03EA92FE19935D7500C459D5 /* TTBlendStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA929A19935D7400C459D5 /* TTBlendStyle.m */; };
+		03EA92FF19935D7500C459D5 /* TTContentStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA929B19935D7400C459D5 /* TTContentStyle.m */; };
+		03EA930019935D7500C459D5 /* TTFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA929F19935D7400C459D5 /* TTFlowLayout.m */; };
+		03EA930119935D7500C459D5 /* TTFourBorderStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA92A019935D7400C459D5 /* TTFourBorderStyle.m */; };
+		03EA930219935D7500C459D5 /* TTGlobalStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA92A219935D7400C459D5 /* TTGlobalStyle.m */; };
+		03EA930319935D7500C459D5 /* TTGridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA92A419935D7400C459D5 /* TTGridLayout.m */; };
+		03EA930419935D7500C459D5 /* TTHighlightBorderStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA92A519935D7400C459D5 /* TTHighlightBorderStyle.m */; };
+		03EA930619935D7500C459D5 /* TTLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA92A819935D7400C459D5 /* TTLayout.m */; };
+		03EA930719935D7500C459D5 /* TTLinearGradientFillStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA92A919935D7400C459D5 /* TTLinearGradientFillStyle.m */; };
+		03EA930819935D7500C459D5 /* TTMaskStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA92AA19935D7400C459D5 /* TTMaskStyle.m */; };
+		03EA930919935D7500C459D5 /* TTPartStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA92AB19935D7400C459D5 /* TTPartStyle.m */; };
+		03EA930A19935D7500C459D5 /* TTReflectiveFillStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA92AE19935D7400C459D5 /* TTReflectiveFillStyle.m */; };
+		03EA930B19935D7500C459D5 /* TTRoundedRightArrowShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA92B219935D7400C459D5 /* TTRoundedRightArrowShape.m */; };
+		03EA930C19935D7500C459D5 /* TTShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA92B319935D7400C459D5 /* TTShape.m */; };
+		03EA930D19935D7500C459D5 /* TTShapeInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA92B519935D7400C459D5 /* TTShapeInternal.m */; };
+		03EA930E19935D7500C459D5 /* TTSolidBorderStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA92B719935D7400C459D5 /* TTSolidBorderStyle.m */; };
+		03EA930F19935D7500C459D5 /* TTSolidFillStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA92B819935D7400C459D5 /* TTSolidFillStyle.m */; };
+		03EA931019935D7500C459D5 /* TTSpeechBubbleShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA92BA19935D7400C459D5 /* TTSpeechBubbleShape.m */; };
+		03EA931119935D7500C459D5 /* TTStyleContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA92BC19935D7400C459D5 /* TTStyleContext.m */; };
+		03EA931F19935D7500C459D5 /* TTStyleInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA92DF19935D7500C459D5 /* TTStyleInternal.m */; };
+		03EA932019935D7500C459D5 /* TTStyleSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA92E119935D7500C459D5 /* TTStyleSheet.m */; };
+		03EA932119935D7500C459D5 /* TTTextStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA92E319935D7500C459D5 /* TTTextStyle.m */; };
+		03EA932219935D7500C459D5 /* UIColorAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA92E519935D7500C459D5 /* UIColorAdditions.m */; };
+		03EA932319935D7500C459D5 /* UIFontAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA92E719935D7500C459D5 /* UIFontAdditions.m */; };
+		03EA932419935D7500C459D5 /* UIImageAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA92E919935D7500C459D5 /* UIImageAdditions.m */; };
+		03EA9342199362F300C459D5 /* NSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA9341199362F300C459D5 /* NSStringAdditions.m */; };
+		03EA936A1993636400C459D5 /* NSArrayAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA93441993636400C459D5 /* NSArrayAdditions.m */; };
+		03EA936B1993636400C459D5 /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA93461993636400C459D5 /* NSDataAdditions.m */; };
+		03EA936C1993636400C459D5 /* NSDateAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA93481993636400C459D5 /* NSDateAdditions.m */; };
+		03EA936D1993636400C459D5 /* NSMutableArrayAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA934A1993636400C459D5 /* NSMutableArrayAdditions.m */; };
+		03EA936E1993636400C459D5 /* NSMutableDictionaryAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA934C1993636400C459D5 /* NSMutableDictionaryAdditions.m */; };
+		03EA936F1993636400C459D5 /* NSObjectAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA934E1993636400C459D5 /* NSObjectAdditions.m */; };
+		03EA93701993636400C459D5 /* Three20.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA93501993636400C459D5 /* Three20.m */; };
+		03EA93711993636400C459D5 /* Three20Version.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA93551993636400C459D5 /* Three20Version.m */; };
+		03EA93721993636400C459D5 /* TTDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA93561993636400C459D5 /* TTDebug.m */; };
+		03EA93731993636400C459D5 /* TTEntityTables.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA93591993636400C459D5 /* TTEntityTables.m */; };
+		03EA93741993636400C459D5 /* TTExtensionAuthor.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA935B1993636400C459D5 /* TTExtensionAuthor.m */; };
+		03EA93751993636400C459D5 /* TTExtensionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA935D1993636400C459D5 /* TTExtensionInfo.m */; };
+		03EA93761993636400C459D5 /* TTExtensionLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA93601993636400C459D5 /* TTExtensionLoader.m */; };
+		03EA93771993636400C459D5 /* TTGlobalCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA93621993636400C459D5 /* TTGlobalCore.m */; };
+		03EA93781993636400C459D5 /* TTGlobalCoreLocale.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA93641993636400C459D5 /* TTGlobalCoreLocale.m */; };
+		03EA93791993636400C459D5 /* TTGlobalCorePaths.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA93661993636400C459D5 /* TTGlobalCorePaths.m */; };
+		03EA937A1993636400C459D5 /* TTGlobalCoreRects.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA93671993636400C459D5 /* TTGlobalCoreRects.m */; };
+		03EA937B1993636400C459D5 /* TTMarkupStripper.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA93691993636400C459D5 /* TTMarkupStripper.m */; };
+		03EA939619936A7200C459D5 /* TTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA939519936A7200C459D5 /* TTView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03EA925A19935D0700C459D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03EA923C19935D0700C459D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03EA924319935D0700C459D5;
+			remoteInfo = Three20Style;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		03EA924219935D0700C459D5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03EA924419935D0700C459D5 /* libThree20Style.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libThree20Style.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		03EA924719935D0700C459D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03EA924B19935D0700C459D5 /* Three20Style-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Three20Style-Prefix.pch"; sourceTree = "<group>"; };
+		03EA925419935D0700C459D5 /* Three20StyleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Three20StyleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03EA925519935D0700C459D5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		03EA925819935D0700C459D5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		03EA925F19935D0800C459D5 /* Three20StyleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Three20StyleTests-Info.plist"; sourceTree = "<group>"; };
+		03EA926119935D0800C459D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03EA926319935D0800C459D5 /* Three20StyleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Three20StyleTests.m; sourceTree = "<group>"; };
+		03EA927819935D7400C459D5 /* TTBevelBorderStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTBevelBorderStyle.h; sourceTree = "<group>"; };
+		03EA927919935D7400C459D5 /* TTBoxStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTBoxStyle.h; sourceTree = "<group>"; };
+		03EA927A19935D7400C459D5 /* TTBoxStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTBoxStyle.m; sourceTree = "<group>"; };
+		03EA927B19935D7400C459D5 /* TTContentStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTContentStyle.h; sourceTree = "<group>"; };
+		03EA927C19935D7400C459D5 /* TTDefaultStyleSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTDefaultStyleSheet.m; sourceTree = "<group>"; };
+		03EA927D19935D7400C459D5 /* TTFourBorderStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTFourBorderStyle.h; sourceTree = "<group>"; };
+		03EA927E19935D7400C459D5 /* TTHighlightBorderStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTHighlightBorderStyle.h; sourceTree = "<group>"; };
+		03EA928019935D7400C459D5 /* TTInnerShadowStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTInnerShadowStyle.h; sourceTree = "<group>"; };
+		03EA928119935D7400C459D5 /* TTInnerShadowStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTInnerShadowStyle.m; sourceTree = "<group>"; };
+		03EA928219935D7400C459D5 /* TTInsetStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTInsetStyle.h; sourceTree = "<group>"; };
+		03EA928319935D7400C459D5 /* TTInsetStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTInsetStyle.m; sourceTree = "<group>"; };
+		03EA928419935D7400C459D5 /* TTLinearGradientBorderStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTLinearGradientBorderStyle.h; sourceTree = "<group>"; };
+		03EA928519935D7400C459D5 /* TTLinearGradientBorderStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTLinearGradientBorderStyle.m; sourceTree = "<group>"; };
+		03EA928619935D7400C459D5 /* TTLinearGradientFillStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTLinearGradientFillStyle.h; sourceTree = "<group>"; };
+		03EA928719935D7400C459D5 /* TTMaskStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTMaskStyle.h; sourceTree = "<group>"; };
+		03EA928819935D7400C459D5 /* TTPartStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTPartStyle.h; sourceTree = "<group>"; };
+		03EA928919935D7400C459D5 /* TTRectangleShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTRectangleShape.m; sourceTree = "<group>"; };
+		03EA928A19935D7400C459D5 /* TTReflectiveFillStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTReflectiveFillStyle.h; sourceTree = "<group>"; };
+		03EA928B19935D7400C459D5 /* TTRoundedLeftArrowShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTRoundedLeftArrowShape.m; sourceTree = "<group>"; };
+		03EA928C19935D7400C459D5 /* TTRoundedRectangleShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTRoundedRectangleShape.m; sourceTree = "<group>"; };
+		03EA928D19935D7400C459D5 /* TTShadowStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTShadowStyle.h; sourceTree = "<group>"; };
+		03EA928E19935D7400C459D5 /* TTShadowStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTShadowStyle.m; sourceTree = "<group>"; };
+		03EA928F19935D7400C459D5 /* TTShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTShape.h; sourceTree = "<group>"; };
+		03EA929019935D7400C459D5 /* TTShapeStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTShapeStyle.m; sourceTree = "<group>"; };
+		03EA929119935D7400C459D5 /* TTSolidBorderStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSolidBorderStyle.h; sourceTree = "<group>"; };
+		03EA929219935D7400C459D5 /* TTSolidFillStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSolidFillStyle.h; sourceTree = "<group>"; };
+		03EA929319935D7400C459D5 /* TTStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTStyle.h; sourceTree = "<group>"; };
+		03EA929419935D7400C459D5 /* TTStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTStyle.m; sourceTree = "<group>"; };
+		03EA929619935D7400C459D5 /* Three20Style.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Three20Style.h; sourceTree = "<group>"; };
+		03EA929719935D7400C459D5 /* Three20Style+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Three20Style+Additions.h"; sourceTree = "<group>"; };
+		03EA929819935D7400C459D5 /* TTBevelBorderStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTBevelBorderStyle.m; sourceTree = "<group>"; };
+		03EA929919935D7400C459D5 /* TTBlendStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTBlendStyle.h; sourceTree = "<group>"; };
+		03EA929A19935D7400C459D5 /* TTBlendStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTBlendStyle.m; sourceTree = "<group>"; };
+		03EA929B19935D7400C459D5 /* TTContentStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTContentStyle.m; sourceTree = "<group>"; };
+		03EA929C19935D7400C459D5 /* TTDefaultStyleSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTDefaultStyleSheet.h; sourceTree = "<group>"; };
+		03EA929D19935D7400C459D5 /* TTDefaultStyleSheet+DragRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TTDefaultStyleSheet+DragRefreshHeader.h"; sourceTree = "<group>"; };
+		03EA929E19935D7400C459D5 /* TTFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTFlowLayout.h; sourceTree = "<group>"; };
+		03EA929F19935D7400C459D5 /* TTFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTFlowLayout.m; sourceTree = "<group>"; };
+		03EA92A019935D7400C459D5 /* TTFourBorderStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTFourBorderStyle.m; sourceTree = "<group>"; };
+		03EA92A119935D7400C459D5 /* TTGlobalStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGlobalStyle.h; sourceTree = "<group>"; };
+		03EA92A219935D7400C459D5 /* TTGlobalStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGlobalStyle.m; sourceTree = "<group>"; };
+		03EA92A319935D7400C459D5 /* TTGridLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGridLayout.h; sourceTree = "<group>"; };
+		03EA92A419935D7400C459D5 /* TTGridLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGridLayout.m; sourceTree = "<group>"; };
+		03EA92A519935D7400C459D5 /* TTHighlightBorderStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTHighlightBorderStyle.m; sourceTree = "<group>"; };
+		03EA92A719935D7400C459D5 /* TTLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTLayout.h; sourceTree = "<group>"; };
+		03EA92A819935D7400C459D5 /* TTLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTLayout.m; sourceTree = "<group>"; };
+		03EA92A919935D7400C459D5 /* TTLinearGradientFillStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTLinearGradientFillStyle.m; sourceTree = "<group>"; };
+		03EA92AA19935D7400C459D5 /* TTMaskStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTMaskStyle.m; sourceTree = "<group>"; };
+		03EA92AB19935D7400C459D5 /* TTPartStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTPartStyle.m; sourceTree = "<group>"; };
+		03EA92AC19935D7400C459D5 /* TTPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTPosition.h; sourceTree = "<group>"; };
+		03EA92AD19935D7400C459D5 /* TTRectangleShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTRectangleShape.h; sourceTree = "<group>"; };
+		03EA92AE19935D7400C459D5 /* TTReflectiveFillStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTReflectiveFillStyle.m; sourceTree = "<group>"; };
+		03EA92AF19935D7400C459D5 /* TTRoundedLeftArrowShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTRoundedLeftArrowShape.h; sourceTree = "<group>"; };
+		03EA92B019935D7400C459D5 /* TTRoundedRectangleShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTRoundedRectangleShape.h; sourceTree = "<group>"; };
+		03EA92B119935D7400C459D5 /* TTRoundedRightArrowShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTRoundedRightArrowShape.h; sourceTree = "<group>"; };
+		03EA92B219935D7400C459D5 /* TTRoundedRightArrowShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTRoundedRightArrowShape.m; sourceTree = "<group>"; };
+		03EA92B319935D7400C459D5 /* TTShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTShape.m; sourceTree = "<group>"; };
+		03EA92B419935D7400C459D5 /* TTShapeInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTShapeInternal.h; sourceTree = "<group>"; };
+		03EA92B519935D7400C459D5 /* TTShapeInternal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTShapeInternal.m; sourceTree = "<group>"; };
+		03EA92B619935D7400C459D5 /* TTShapeStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTShapeStyle.h; sourceTree = "<group>"; };
+		03EA92B719935D7400C459D5 /* TTSolidBorderStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSolidBorderStyle.m; sourceTree = "<group>"; };
+		03EA92B819935D7400C459D5 /* TTSolidFillStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSolidFillStyle.m; sourceTree = "<group>"; };
+		03EA92B919935D7400C459D5 /* TTSpeechBubbleShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSpeechBubbleShape.h; sourceTree = "<group>"; };
+		03EA92BA19935D7400C459D5 /* TTSpeechBubbleShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSpeechBubbleShape.m; sourceTree = "<group>"; };
+		03EA92BB19935D7400C459D5 /* TTStyleContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTStyleContext.h; sourceTree = "<group>"; };
+		03EA92BC19935D7400C459D5 /* TTStyleContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTStyleContext.m; sourceTree = "<group>"; };
+		03EA92C419935D7400C459D5 /* TTStyleDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTStyleDelegate.h; sourceTree = "<group>"; };
+		03EA92DE19935D7500C459D5 /* TTStyleInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTStyleInternal.h; sourceTree = "<group>"; };
+		03EA92DF19935D7500C459D5 /* TTStyleInternal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTStyleInternal.m; sourceTree = "<group>"; };
+		03EA92E019935D7500C459D5 /* TTStyleSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTStyleSheet.h; sourceTree = "<group>"; };
+		03EA92E119935D7500C459D5 /* TTStyleSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTStyleSheet.m; sourceTree = "<group>"; };
+		03EA92E219935D7500C459D5 /* TTTextStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTextStyle.h; sourceTree = "<group>"; };
+		03EA92E319935D7500C459D5 /* TTTextStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTextStyle.m; sourceTree = "<group>"; };
+		03EA92E419935D7500C459D5 /* UIColorAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIColorAdditions.h; sourceTree = "<group>"; };
+		03EA92E519935D7500C459D5 /* UIColorAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColorAdditions.m; sourceTree = "<group>"; };
+		03EA92E619935D7500C459D5 /* UIFontAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFontAdditions.h; sourceTree = "<group>"; };
+		03EA92E719935D7500C459D5 /* UIFontAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFontAdditions.m; sourceTree = "<group>"; };
+		03EA92E819935D7500C459D5 /* UIImageAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageAdditions.h; sourceTree = "<group>"; };
+		03EA92E919935D7500C459D5 /* UIImageAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageAdditions.m; sourceTree = "<group>"; };
+		03EA933D19935E1400C459D5 /* TTCorePreprocessorMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTCorePreprocessorMacros.h; sourceTree = "<group>"; };
+		03EA933E19935E3C00C459D5 /* TTGlobalCoreRects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGlobalCoreRects.h; sourceTree = "<group>"; };
+		03EA933F19935E8500C459D5 /* TTDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTDebug.h; sourceTree = "<group>"; };
+		03EA9340199362F300C459D5 /* NSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringAdditions.h; sourceTree = "<group>"; };
+		03EA9341199362F300C459D5 /* NSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringAdditions.m; sourceTree = "<group>"; };
+		03EA93431993636400C459D5 /* NSArrayAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArrayAdditions.h; sourceTree = "<group>"; };
+		03EA93441993636400C459D5 /* NSArrayAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayAdditions.m; sourceTree = "<group>"; };
+		03EA93451993636400C459D5 /* NSDataAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataAdditions.h; sourceTree = "<group>"; };
+		03EA93461993636400C459D5 /* NSDataAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataAdditions.m; sourceTree = "<group>"; };
+		03EA93471993636400C459D5 /* NSDateAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDateAdditions.h; sourceTree = "<group>"; };
+		03EA93481993636400C459D5 /* NSDateAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateAdditions.m; sourceTree = "<group>"; };
+		03EA93491993636400C459D5 /* NSMutableArrayAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSMutableArrayAdditions.h; sourceTree = "<group>"; };
+		03EA934A1993636400C459D5 /* NSMutableArrayAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSMutableArrayAdditions.m; sourceTree = "<group>"; };
+		03EA934B1993636400C459D5 /* NSMutableDictionaryAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSMutableDictionaryAdditions.h; sourceTree = "<group>"; };
+		03EA934C1993636400C459D5 /* NSMutableDictionaryAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSMutableDictionaryAdditions.m; sourceTree = "<group>"; };
+		03EA934D1993636400C459D5 /* NSObjectAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObjectAdditions.h; sourceTree = "<group>"; };
+		03EA934E1993636400C459D5 /* NSObjectAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObjectAdditions.m; sourceTree = "<group>"; };
+		03EA934F1993636400C459D5 /* Three20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Three20.h; sourceTree = "<group>"; };
+		03EA93501993636400C459D5 /* Three20.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Three20.m; sourceTree = "<group>"; };
+		03EA93521993636400C459D5 /* Three20Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Three20Core.h; sourceTree = "<group>"; };
+		03EA93531993636400C459D5 /* Three20Core+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Three20Core+Additions.h"; sourceTree = "<group>"; };
+		03EA93541993636400C459D5 /* Three20Version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Three20Version.h; sourceTree = "<group>"; };
+		03EA93551993636400C459D5 /* Three20Version.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Three20Version.m; sourceTree = "<group>"; };
+		03EA93561993636400C459D5 /* TTDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTDebug.m; sourceTree = "<group>"; };
+		03EA93571993636400C459D5 /* TTDebugFlags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTDebugFlags.h; sourceTree = "<group>"; };
+		03EA93581993636400C459D5 /* TTEntityTables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTEntityTables.h; sourceTree = "<group>"; };
+		03EA93591993636400C459D5 /* TTEntityTables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTEntityTables.m; sourceTree = "<group>"; };
+		03EA935A1993636400C459D5 /* TTExtensionAuthor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTExtensionAuthor.h; sourceTree = "<group>"; };
+		03EA935B1993636400C459D5 /* TTExtensionAuthor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTExtensionAuthor.m; sourceTree = "<group>"; };
+		03EA935C1993636400C459D5 /* TTExtensionInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTExtensionInfo.h; sourceTree = "<group>"; };
+		03EA935D1993636400C459D5 /* TTExtensionInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTExtensionInfo.m; sourceTree = "<group>"; };
+		03EA935E1993636400C459D5 /* TTExtensionInfoPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTExtensionInfoPrivate.h; sourceTree = "<group>"; };
+		03EA935F1993636400C459D5 /* TTExtensionLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTExtensionLoader.h; sourceTree = "<group>"; };
+		03EA93601993636400C459D5 /* TTExtensionLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTExtensionLoader.m; sourceTree = "<group>"; };
+		03EA93611993636400C459D5 /* TTGlobalCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGlobalCore.h; sourceTree = "<group>"; };
+		03EA93621993636400C459D5 /* TTGlobalCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGlobalCore.m; sourceTree = "<group>"; };
+		03EA93631993636400C459D5 /* TTGlobalCoreLocale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGlobalCoreLocale.h; sourceTree = "<group>"; };
+		03EA93641993636400C459D5 /* TTGlobalCoreLocale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGlobalCoreLocale.m; sourceTree = "<group>"; };
+		03EA93651993636400C459D5 /* TTGlobalCorePaths.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGlobalCorePaths.h; sourceTree = "<group>"; };
+		03EA93661993636400C459D5 /* TTGlobalCorePaths.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGlobalCorePaths.m; sourceTree = "<group>"; };
+		03EA93671993636400C459D5 /* TTGlobalCoreRects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGlobalCoreRects.m; sourceTree = "<group>"; };
+		03EA93681993636400C459D5 /* TTMarkupStripper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTMarkupStripper.h; sourceTree = "<group>"; };
+		03EA93691993636400C459D5 /* TTMarkupStripper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTMarkupStripper.m; sourceTree = "<group>"; };
+		03EA939419936A7200C459D5 /* TTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTView.h; sourceTree = "<group>"; };
+		03EA939519936A7200C459D5 /* TTView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03EA924119935D0700C459D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03EA924819935D0700C459D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03EA925119935D0700C459D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03EA925619935D0700C459D5 /* XCTest.framework in Frameworks */,
+				03EA925919935D0700C459D5 /* UIKit.framework in Frameworks */,
+				03EA925C19935D0700C459D5 /* libThree20Style.a in Frameworks */,
+				03EA925719935D0700C459D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03EA923B19935D0700C459D5 = {
+			isa = PBXGroup;
+			children = (
+				03EA93B619936D0400C459D5 /* TTCore */,
+				03EA924919935D0700C459D5 /* Three20Style */,
+				03EA925D19935D0700C459D5 /* Three20StyleTests */,
+				03EA924619935D0700C459D5 /* Frameworks */,
+				03EA924519935D0700C459D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03EA924519935D0700C459D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03EA924419935D0700C459D5 /* libThree20Style.a */,
+				03EA925419935D0700C459D5 /* Three20StyleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03EA924619935D0700C459D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03EA924719935D0700C459D5 /* Foundation.framework */,
+				03EA925519935D0700C459D5 /* XCTest.framework */,
+				03EA925819935D0700C459D5 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03EA924919935D0700C459D5 /* Three20Style */ = {
+			isa = PBXGroup;
+			children = (
+				03EA929619935D7400C459D5 /* Three20Style.h */,
+				03EA929719935D7400C459D5 /* Three20Style+Additions.h */,
+				03EA93BE19936E8D00C459D5 /* Global */,
+				03EA93BF19936EE500C459D5 /* Additions */,
+				03EA93C019936F0000C459D5 /* StyleSheet */,
+				03EA93C119936F5500C459D5 /* Style */,
+				03EA939B19936BAB00C459D5 /* Shape */,
+				03EA93C51993708300C459D5 /* Layout */,
+				03EA939419936A7200C459D5 /* TTView.h */,
+				03EA939519936A7200C459D5 /* TTView.m */,
+				03EA924A19935D0700C459D5 /* Supporting Files */,
+			);
+			path = Three20Style;
+			sourceTree = "<group>";
+		};
+		03EA924A19935D0700C459D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03EA924B19935D0700C459D5 /* Three20Style-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03EA925D19935D0700C459D5 /* Three20StyleTests */ = {
+			isa = PBXGroup;
+			children = (
+				03EA926319935D0800C459D5 /* Three20StyleTests.m */,
+				03EA925E19935D0700C459D5 /* Supporting Files */,
+			);
+			path = Three20StyleTests;
+			sourceTree = "<group>";
+		};
+		03EA925E19935D0700C459D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03EA925F19935D0800C459D5 /* Three20StyleTests-Info.plist */,
+				03EA926019935D0800C459D5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03EA939B19936BAB00C459D5 /* Shape */ = {
+			isa = PBXGroup;
+			children = (
+				03EA928F19935D7400C459D5 /* TTShape.h */,
+				03EA92B319935D7400C459D5 /* TTShape.m */,
+				03EA92AD19935D7400C459D5 /* TTRectangleShape.h */,
+				03EA928919935D7400C459D5 /* TTRectangleShape.m */,
+				03EA92B019935D7400C459D5 /* TTRoundedRectangleShape.h */,
+				03EA928C19935D7400C459D5 /* TTRoundedRectangleShape.m */,
+				03EA92AF19935D7400C459D5 /* TTRoundedLeftArrowShape.h */,
+				03EA928B19935D7400C459D5 /* TTRoundedLeftArrowShape.m */,
+				03EA92B119935D7400C459D5 /* TTRoundedRightArrowShape.h */,
+				03EA92B219935D7400C459D5 /* TTRoundedRightArrowShape.m */,
+				03EA92B919935D7400C459D5 /* TTSpeechBubbleShape.h */,
+				03EA92BA19935D7400C459D5 /* TTSpeechBubbleShape.m */,
+			);
+			name = Shape;
+			sourceTree = "<group>";
+		};
+		03EA93B619936D0400C459D5 /* TTCore */ = {
+			isa = PBXGroup;
+			children = (
+				03EA93521993636400C459D5 /* Three20Core.h */,
+				03EA93531993636400C459D5 /* Three20Core+Additions.h */,
+				03EA93571993636400C459D5 /* TTDebugFlags.h */,
+				03EA93BC19936E3500C459D5 /* Classes */,
+				03EA93BB19936E1300C459D5 /* Entity Tables */,
+				03EA93BA19936DD700C459D5 /* Extensions */,
+				03EA93B919936DC400C459D5 /* Debug */,
+				03EA93B819936D9400C459D5 /* Additions */,
+				03EA93B719936D2300C459D5 /* Global */,
+			);
+			name = TTCore;
+			path = Three20Style;
+			sourceTree = "<group>";
+		};
+		03EA93B719936D2300C459D5 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				03EA934F1993636400C459D5 /* Three20.h */,
+				03EA93501993636400C459D5 /* Three20.m */,
+				03EA93541993636400C459D5 /* Three20Version.h */,
+				03EA93551993636400C459D5 /* Three20Version.m */,
+				03EA933D19935E1400C459D5 /* TTCorePreprocessorMacros.h */,
+				03EA93611993636400C459D5 /* TTGlobalCore.h */,
+				03EA93621993636400C459D5 /* TTGlobalCore.m */,
+				03EA93631993636400C459D5 /* TTGlobalCoreLocale.h */,
+				03EA93641993636400C459D5 /* TTGlobalCoreLocale.m */,
+				03EA93651993636400C459D5 /* TTGlobalCorePaths.h */,
+				03EA93661993636400C459D5 /* TTGlobalCorePaths.m */,
+				03EA933E19935E3C00C459D5 /* TTGlobalCoreRects.h */,
+				03EA93671993636400C459D5 /* TTGlobalCoreRects.m */,
+			);
+			name = Global;
+			sourceTree = "<group>";
+		};
+		03EA93B819936D9400C459D5 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				03EA93431993636400C459D5 /* NSArrayAdditions.h */,
+				03EA93441993636400C459D5 /* NSArrayAdditions.m */,
+				03EA93451993636400C459D5 /* NSDataAdditions.h */,
+				03EA93461993636400C459D5 /* NSDataAdditions.m */,
+				03EA93471993636400C459D5 /* NSDateAdditions.h */,
+				03EA93481993636400C459D5 /* NSDateAdditions.m */,
+				03EA93491993636400C459D5 /* NSMutableArrayAdditions.h */,
+				03EA934A1993636400C459D5 /* NSMutableArrayAdditions.m */,
+				03EA934B1993636400C459D5 /* NSMutableDictionaryAdditions.h */,
+				03EA934C1993636400C459D5 /* NSMutableDictionaryAdditions.m */,
+				03EA934D1993636400C459D5 /* NSObjectAdditions.h */,
+				03EA934E1993636400C459D5 /* NSObjectAdditions.m */,
+				03EA9340199362F300C459D5 /* NSStringAdditions.h */,
+				03EA9341199362F300C459D5 /* NSStringAdditions.m */,
+			);
+			name = Additions;
+			sourceTree = "<group>";
+		};
+		03EA93B919936DC400C459D5 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				03EA933F19935E8500C459D5 /* TTDebug.h */,
+				03EA93561993636400C459D5 /* TTDebug.m */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+		03EA93BA19936DD700C459D5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				03EA935A1993636400C459D5 /* TTExtensionAuthor.h */,
+				03EA935B1993636400C459D5 /* TTExtensionAuthor.m */,
+				03EA935C1993636400C459D5 /* TTExtensionInfo.h */,
+				03EA935D1993636400C459D5 /* TTExtensionInfo.m */,
+				03EA935E1993636400C459D5 /* TTExtensionInfoPrivate.h */,
+				03EA935F1993636400C459D5 /* TTExtensionLoader.h */,
+				03EA93601993636400C459D5 /* TTExtensionLoader.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		03EA93BB19936E1300C459D5 /* Entity Tables */ = {
+			isa = PBXGroup;
+			children = (
+				03EA93581993636400C459D5 /* TTEntityTables.h */,
+				03EA93591993636400C459D5 /* TTEntityTables.m */,
+			);
+			name = "Entity Tables";
+			sourceTree = "<group>";
+		};
+		03EA93BC19936E3500C459D5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				03EA93BD19936E3C00C459D5 /* Markup Stripper */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		03EA93BD19936E3C00C459D5 /* Markup Stripper */ = {
+			isa = PBXGroup;
+			children = (
+				03EA93681993636400C459D5 /* TTMarkupStripper.h */,
+				03EA93691993636400C459D5 /* TTMarkupStripper.m */,
+			);
+			name = "Markup Stripper";
+			sourceTree = "<group>";
+		};
+		03EA93BE19936E8D00C459D5 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				03EA92A119935D7400C459D5 /* TTGlobalStyle.h */,
+				03EA92A219935D7400C459D5 /* TTGlobalStyle.m */,
+				03EA92AC19935D7400C459D5 /* TTPosition.h */,
+			);
+			name = Global;
+			sourceTree = "<group>";
+		};
+		03EA93BF19936EE500C459D5 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				03EA92E419935D7500C459D5 /* UIColorAdditions.h */,
+				03EA92E519935D7500C459D5 /* UIColorAdditions.m */,
+				03EA92E619935D7500C459D5 /* UIFontAdditions.h */,
+				03EA92E719935D7500C459D5 /* UIFontAdditions.m */,
+				03EA92E819935D7500C459D5 /* UIImageAdditions.h */,
+				03EA92E919935D7500C459D5 /* UIImageAdditions.m */,
+			);
+			name = Additions;
+			sourceTree = "<group>";
+		};
+		03EA93C019936F0000C459D5 /* StyleSheet */ = {
+			isa = PBXGroup;
+			children = (
+				03EA92E019935D7500C459D5 /* TTStyleSheet.h */,
+				03EA92E119935D7500C459D5 /* TTStyleSheet.m */,
+				03EA929C19935D7400C459D5 /* TTDefaultStyleSheet.h */,
+				03EA927C19935D7400C459D5 /* TTDefaultStyleSheet.m */,
+				03EA929D19935D7400C459D5 /* TTDefaultStyleSheet+DragRefreshHeader.h */,
+			);
+			name = StyleSheet;
+			sourceTree = "<group>";
+		};
+		03EA93C119936F5500C459D5 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				03EA929319935D7400C459D5 /* TTStyle.h */,
+				03EA929419935D7400C459D5 /* TTStyle.m */,
+				03EA92C419935D7400C459D5 /* TTStyleDelegate.h */,
+				03EA93C219936F9800C459D5 /* Private */,
+				03EA93C319936FB600C459D5 /* Context */,
+				03EA93C419936FE500C459D5 /* styles */,
+			);
+			name = Style;
+			sourceTree = "<group>";
+		};
+		03EA93C219936F9800C459D5 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				03EA92DE19935D7500C459D5 /* TTStyleInternal.h */,
+				03EA92DF19935D7500C459D5 /* TTStyleInternal.m */,
+			);
+			name = Private;
+			sourceTree = "<group>";
+		};
+		03EA93C319936FB600C459D5 /* Context */ = {
+			isa = PBXGroup;
+			children = (
+				03EA92BB19935D7400C459D5 /* TTStyleContext.h */,
+				03EA92BC19935D7400C459D5 /* TTStyleContext.m */,
+			);
+			name = Context;
+			sourceTree = "<group>";
+		};
+		03EA93C419936FE500C459D5 /* styles */ = {
+			isa = PBXGroup;
+			children = (
+				03EA927819935D7400C459D5 /* TTBevelBorderStyle.h */,
+				03EA929819935D7400C459D5 /* TTBevelBorderStyle.m */,
+				03EA927919935D7400C459D5 /* TTBoxStyle.h */,
+				03EA927A19935D7400C459D5 /* TTBoxStyle.m */,
+				03EA927B19935D7400C459D5 /* TTContentStyle.h */,
+				03EA929B19935D7400C459D5 /* TTContentStyle.m */,
+				03EA927D19935D7400C459D5 /* TTFourBorderStyle.h */,
+				03EA92A019935D7400C459D5 /* TTFourBorderStyle.m */,
+				03EA927E19935D7400C459D5 /* TTHighlightBorderStyle.h */,
+				03EA92A519935D7400C459D5 /* TTHighlightBorderStyle.m */,
+				03EA928019935D7400C459D5 /* TTInnerShadowStyle.h */,
+				03EA928119935D7400C459D5 /* TTInnerShadowStyle.m */,
+				03EA928219935D7400C459D5 /* TTInsetStyle.h */,
+				03EA928319935D7400C459D5 /* TTInsetStyle.m */,
+				03EA928419935D7400C459D5 /* TTLinearGradientBorderStyle.h */,
+				03EA928519935D7400C459D5 /* TTLinearGradientBorderStyle.m */,
+				03EA928619935D7400C459D5 /* TTLinearGradientFillStyle.h */,
+				03EA92A919935D7400C459D5 /* TTLinearGradientFillStyle.m */,
+				03EA928719935D7400C459D5 /* TTMaskStyle.h */,
+				03EA92AA19935D7400C459D5 /* TTMaskStyle.m */,
+				03EA928819935D7400C459D5 /* TTPartStyle.h */,
+				03EA92AB19935D7400C459D5 /* TTPartStyle.m */,
+				03EA928A19935D7400C459D5 /* TTReflectiveFillStyle.h */,
+				03EA92AE19935D7400C459D5 /* TTReflectiveFillStyle.m */,
+				03EA928D19935D7400C459D5 /* TTShadowStyle.h */,
+				03EA928E19935D7400C459D5 /* TTShadowStyle.m */,
+				03EA92B619935D7400C459D5 /* TTShapeStyle.h */,
+				03EA929019935D7400C459D5 /* TTShapeStyle.m */,
+				03EA929119935D7400C459D5 /* TTSolidBorderStyle.h */,
+				03EA92B719935D7400C459D5 /* TTSolidBorderStyle.m */,
+				03EA929219935D7400C459D5 /* TTSolidFillStyle.h */,
+				03EA92B819935D7400C459D5 /* TTSolidFillStyle.m */,
+				03EA929919935D7400C459D5 /* TTBlendStyle.h */,
+				03EA929A19935D7400C459D5 /* TTBlendStyle.m */,
+				03EA92B419935D7400C459D5 /* TTShapeInternal.h */,
+				03EA92B519935D7400C459D5 /* TTShapeInternal.m */,
+				03EA92E219935D7500C459D5 /* TTTextStyle.h */,
+				03EA92E319935D7500C459D5 /* TTTextStyle.m */,
+			);
+			name = styles;
+			sourceTree = "<group>";
+		};
+		03EA93C51993708300C459D5 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				03EA92A719935D7400C459D5 /* TTLayout.h */,
+				03EA92A819935D7400C459D5 /* TTLayout.m */,
+				03EA929E19935D7400C459D5 /* TTFlowLayout.h */,
+				03EA929F19935D7400C459D5 /* TTFlowLayout.m */,
+				03EA92A319935D7400C459D5 /* TTGridLayout.h */,
+				03EA92A419935D7400C459D5 /* TTGridLayout.m */,
+			);
+			name = Layout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03EA924319935D0700C459D5 /* Three20Style */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03EA926719935D0800C459D5 /* Build configuration list for PBXNativeTarget "Three20Style" */;
+			buildPhases = (
+				03EA924019935D0700C459D5 /* Sources */,
+				03EA924119935D0700C459D5 /* Frameworks */,
+				03EA924219935D0700C459D5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Three20Style;
+			productName = Three20Style;
+			productReference = 03EA924419935D0700C459D5 /* libThree20Style.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		03EA925319935D0700C459D5 /* Three20StyleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03EA926A19935D0800C459D5 /* Build configuration list for PBXNativeTarget "Three20StyleTests" */;
+			buildPhases = (
+				03EA925019935D0700C459D5 /* Sources */,
+				03EA925119935D0700C459D5 /* Frameworks */,
+				03EA925219935D0700C459D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03EA925B19935D0700C459D5 /* PBXTargetDependency */,
+			);
+			name = Three20StyleTests;
+			productName = Three20StyleTests;
+			productReference = 03EA925419935D0700C459D5 /* Three20StyleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03EA923C19935D0700C459D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Beijing Zoomi";
+			};
+			buildConfigurationList = 03EA923F19935D0700C459D5 /* Build configuration list for PBXProject "Three20Style" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03EA923B19935D0700C459D5;
+			productRefGroup = 03EA924519935D0700C459D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03EA924319935D0700C459D5 /* Three20Style */,
+				03EA925319935D0700C459D5 /* Three20StyleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03EA925219935D0700C459D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03EA926219935D0800C459D5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03EA924019935D0700C459D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03EA92FF19935D7500C459D5 /* TTContentStyle.m in Sources */,
+				03EA930D19935D7500C459D5 /* TTShapeInternal.m in Sources */,
+				03EA92FB19935D7500C459D5 /* TTShapeStyle.m in Sources */,
+				03EA92F519935D7500C459D5 /* TTInsetStyle.m in Sources */,
+				03EA932019935D7500C459D5 /* TTStyleSheet.m in Sources */,
+				03EA930619935D7500C459D5 /* TTLayout.m in Sources */,
+				03EA930319935D7500C459D5 /* TTGridLayout.m in Sources */,
+				03EA930019935D7500C459D5 /* TTFlowLayout.m in Sources */,
+				03EA92F919935D7500C459D5 /* TTRoundedRectangleShape.m in Sources */,
+				03EA936F1993636400C459D5 /* NSObjectAdditions.m in Sources */,
+				03EA937A1993636400C459D5 /* TTGlobalCoreRects.m in Sources */,
+				03EA92F819935D7500C459D5 /* TTRoundedLeftArrowShape.m in Sources */,
+				03EA931F19935D7500C459D5 /* TTStyleInternal.m in Sources */,
+				03EA930F19935D7500C459D5 /* TTSolidFillStyle.m in Sources */,
+				03EA93741993636400C459D5 /* TTExtensionAuthor.m in Sources */,
+				03EA92F419935D7500C459D5 /* TTInnerShadowStyle.m in Sources */,
+				03EA92FE19935D7500C459D5 /* TTBlendStyle.m in Sources */,
+				03EA931119935D7500C459D5 /* TTStyleContext.m in Sources */,
+				03EA931019935D7500C459D5 /* TTSpeechBubbleShape.m in Sources */,
+				03EA930719935D7500C459D5 /* TTLinearGradientFillStyle.m in Sources */,
+				03EA93731993636400C459D5 /* TTEntityTables.m in Sources */,
+				03EA93721993636400C459D5 /* TTDebug.m in Sources */,
+				03EA93781993636400C459D5 /* TTGlobalCoreLocale.m in Sources */,
+				03EA936A1993636400C459D5 /* NSArrayAdditions.m in Sources */,
+				03EA93791993636400C459D5 /* TTGlobalCorePaths.m in Sources */,
+				03EA92FC19935D7500C459D5 /* TTStyle.m in Sources */,
+				03EA93701993636400C459D5 /* Three20.m in Sources */,
+				03EA932319935D7500C459D5 /* UIFontAdditions.m in Sources */,
+				03EA932419935D7500C459D5 /* UIImageAdditions.m in Sources */,
+				03EA93771993636400C459D5 /* TTGlobalCore.m in Sources */,
+				03EA92F619935D7500C459D5 /* TTLinearGradientBorderStyle.m in Sources */,
+				03EA930219935D7500C459D5 /* TTGlobalStyle.m in Sources */,
+				03EA930819935D7500C459D5 /* TTMaskStyle.m in Sources */,
+				03EA930A19935D7500C459D5 /* TTReflectiveFillStyle.m in Sources */,
+				03EA932119935D7500C459D5 /* TTTextStyle.m in Sources */,
+				03EA930B19935D7500C459D5 /* TTRoundedRightArrowShape.m in Sources */,
+				03EA930E19935D7500C459D5 /* TTSolidBorderStyle.m in Sources */,
+				03EA936D1993636400C459D5 /* NSMutableArrayAdditions.m in Sources */,
+				03EA92F319935D7500C459D5 /* TTDefaultStyleSheet.m in Sources */,
+				03EA936C1993636400C459D5 /* NSDateAdditions.m in Sources */,
+				03EA9342199362F300C459D5 /* NSStringAdditions.m in Sources */,
+				03EA92F719935D7500C459D5 /* TTRectangleShape.m in Sources */,
+				03EA930419935D7500C459D5 /* TTHighlightBorderStyle.m in Sources */,
+				03EA937B1993636400C459D5 /* TTMarkupStripper.m in Sources */,
+				03EA930919935D7500C459D5 /* TTPartStyle.m in Sources */,
+				03EA93751993636400C459D5 /* TTExtensionInfo.m in Sources */,
+				03EA93761993636400C459D5 /* TTExtensionLoader.m in Sources */,
+				03EA936E1993636400C459D5 /* NSMutableDictionaryAdditions.m in Sources */,
+				03EA930119935D7500C459D5 /* TTFourBorderStyle.m in Sources */,
+				03EA92FA19935D7500C459D5 /* TTShadowStyle.m in Sources */,
+				03EA939619936A7200C459D5 /* TTView.m in Sources */,
+				03EA936B1993636400C459D5 /* NSDataAdditions.m in Sources */,
+				03EA93711993636400C459D5 /* Three20Version.m in Sources */,
+				03EA932219935D7500C459D5 /* UIColorAdditions.m in Sources */,
+				03EA92FD19935D7500C459D5 /* TTBevelBorderStyle.m in Sources */,
+				03EA930C19935D7500C459D5 /* TTShape.m in Sources */,
+				03EA92F219935D7500C459D5 /* TTBoxStyle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03EA925019935D0700C459D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03EA926419935D0800C459D5 /* Three20StyleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03EA925B19935D0700C459D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03EA924319935D0700C459D5 /* Three20Style */;
+			targetProxy = 03EA925A19935D0700C459D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03EA926019935D0800C459D5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03EA926119935D0800C459D5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03EA926519935D0800C459D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03EA926619935D0800C459D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03EA926819935D0800C459D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				DSTROOT = /tmp/Three20Style.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Three20Style/Three20Style-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		03EA926919935D0800C459D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				DSTROOT = /tmp/Three20Style.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Three20Style/Three20Style-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		03EA926B19935D0800C459D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Three20Style/Three20Style-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Three20StyleTests/Three20StyleTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.zoomi.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		03EA926C19935D0800C459D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Three20Style/Three20Style-Prefix.pch";
+				INFOPLIST_FILE = "Three20StyleTests/Three20StyleTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.zoomi.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03EA923F19935D0700C459D5 /* Build configuration list for PBXProject "Three20Style" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03EA926519935D0800C459D5 /* Debug */,
+				03EA926619935D0800C459D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03EA926719935D0800C459D5 /* Build configuration list for PBXNativeTarget "Three20Style" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03EA926819935D0800C459D5 /* Debug */,
+				03EA926919935D0800C459D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03EA926A19935D0800C459D5 /* Build configuration list for PBXNativeTarget "Three20StyleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03EA926B19935D0800C459D5 /* Debug */,
+				03EA926C19935D0800C459D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03EA923C19935D0700C459D5 /* Project object */;
+}

@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03AA2AE91D33800F00774C18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AA2AE81D33800F00774C18 /* main.m */; };
+		03AA2AEC1D33800F00774C18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AA2AEB1D33800F00774C18 /* AppDelegate.m */; };
+		03AA2AEF1D33800F00774C18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AA2AEE1D33800F00774C18 /* ViewController.m */; };
+		03AA2AF21D33800F00774C18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03AA2AF01D33800F00774C18 /* Main.storyboard */; };
+		03AA2AF41D33800F00774C18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03AA2AF31D33800F00774C18 /* Assets.xcassets */; };
+		03AA2AFF1D33806800774C18 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03AA2AFE1D33806800774C18 /* Launch Screen.storyboard */; };
+		03AA2B2F1D34E69700774C18 /* libThree20Style.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AA2B061D33838000774C18 /* libThree20Style.a */; };
+		03AA2B351D35D55600774C18 /* UIView+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AA2B341D35D55600774C18 /* UIView+Extend.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03AA2B051D33838000774C18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03AA2B001D33837F00774C18 /* Three20Style.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03EA924419935D0700C459D5;
+			remoteInfo = Three20Style;
+		};
+		03AA2B071D33838000774C18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03AA2B001D33837F00774C18 /* Three20Style.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03EA925419935D0700C459D5;
+			remoteInfo = Three20StyleTests;
+		};
+		03AA2B2B1D34E67A00774C18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03AA2B001D33837F00774C18 /* Three20Style.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 03EA924319935D0700C459D5;
+			remoteInfo = Three20Style;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03AA2AE41D33800F00774C18 /* Three20StyleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Three20StyleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03AA2AE81D33800F00774C18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03AA2AEA1D33800F00774C18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03AA2AEB1D33800F00774C18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03AA2AED1D33800F00774C18 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		03AA2AEE1D33800F00774C18 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		03AA2AF11D33800F00774C18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03AA2AF31D33800F00774C18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03AA2AF81D33800F00774C18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03AA2AFE1D33806800774C18 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		03AA2B001D33837F00774C18 /* Three20Style.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20Style.xcodeproj; path = ../Three20Style/Three20Style.xcodeproj; sourceTree = "<group>"; };
+		03AA2B331D35D55600774C18 /* UIView+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extend.h"; sourceTree = "<group>"; };
+		03AA2B341D35D55600774C18 /* UIView+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extend.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03AA2AE11D33800F00774C18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AA2B2F1D34E69700774C18 /* libThree20Style.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03AA2ADB1D33800F00774C18 = {
+			isa = PBXGroup;
+			children = (
+				03AA2B001D33837F00774C18 /* Three20Style.xcodeproj */,
+				03AA2AE61D33800F00774C18 /* Three20StyleDemo */,
+				03AA2AE51D33800F00774C18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03AA2AE51D33800F00774C18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03AA2AE41D33800F00774C18 /* Three20StyleDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03AA2AE61D33800F00774C18 /* Three20StyleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				03AA2AEA1D33800F00774C18 /* AppDelegate.h */,
+				03AA2AEB1D33800F00774C18 /* AppDelegate.m */,
+				03AA2AED1D33800F00774C18 /* ViewController.h */,
+				03AA2AEE1D33800F00774C18 /* ViewController.m */,
+				03AA2AF01D33800F00774C18 /* Main.storyboard */,
+				03AA2AF31D33800F00774C18 /* Assets.xcassets */,
+				03AA2AF81D33800F00774C18 /* Info.plist */,
+				03AA2AE71D33800F00774C18 /* Supporting Files */,
+				03AA2AFE1D33806800774C18 /* Launch Screen.storyboard */,
+				03AA2B331D35D55600774C18 /* UIView+Extend.h */,
+				03AA2B341D35D55600774C18 /* UIView+Extend.m */,
+			);
+			path = Three20StyleDemo;
+			sourceTree = "<group>";
+		};
+		03AA2AE71D33800F00774C18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03AA2AE81D33800F00774C18 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03AA2B011D33837F00774C18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03AA2B061D33838000774C18 /* libThree20Style.a */,
+				03AA2B081D33838000774C18 /* Three20StyleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03AA2AE31D33800F00774C18 /* Three20StyleDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03AA2AFB1D33800F00774C18 /* Build configuration list for PBXNativeTarget "Three20StyleDemo" */;
+			buildPhases = (
+				03AA2AE01D33800F00774C18 /* Sources */,
+				03AA2AE11D33800F00774C18 /* Frameworks */,
+				03AA2AE21D33800F00774C18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03AA2B2C1D34E67A00774C18 /* PBXTargetDependency */,
+			);
+			name = Three20StyleDemo;
+			productName = Three20StyleDemo;
+			productReference = 03AA2AE41D33800F00774C18 /* Three20StyleDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03AA2ADC1D33800F00774C18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = putao;
+				TargetAttributes = {
+					03AA2AE31D33800F00774C18 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 03AA2ADF1D33800F00774C18 /* Build configuration list for PBXProject "Three20StyleDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03AA2ADB1D33800F00774C18;
+			productRefGroup = 03AA2AE51D33800F00774C18 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 03AA2B011D33837F00774C18 /* Products */;
+					ProjectRef = 03AA2B001D33837F00774C18 /* Three20Style.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				03AA2AE31D33800F00774C18 /* Three20StyleDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		03AA2B061D33838000774C18 /* libThree20Style.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libThree20Style.a;
+			remoteRef = 03AA2B051D33838000774C18 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		03AA2B081D33838000774C18 /* Three20StyleTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Three20StyleTests.xctest;
+			remoteRef = 03AA2B071D33838000774C18 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03AA2AE21D33800F00774C18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AA2AF41D33800F00774C18 /* Assets.xcassets in Resources */,
+				03AA2AFF1D33806800774C18 /* Launch Screen.storyboard in Resources */,
+				03AA2AF21D33800F00774C18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03AA2AE01D33800F00774C18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AA2AEF1D33800F00774C18 /* ViewController.m in Sources */,
+				03AA2AEC1D33800F00774C18 /* AppDelegate.m in Sources */,
+				03AA2B351D35D55600774C18 /* UIView+Extend.m in Sources */,
+				03AA2AE91D33800F00774C18 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03AA2B2C1D34E67A00774C18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Three20Style;
+			targetProxy = 03AA2B2B1D34E67A00774C18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03AA2AF01D33800F00774C18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03AA2AF11D33800F00774C18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03AA2AF91D33800F00774C18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03AA2AFA1D33800F00774C18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03AA2AFC1D33800F00774C18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../Three20Style/Three20Style";
+				INFOPLIST_FILE = Three20StyleDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.putao.Three20StyleDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03AA2AFD1D33800F00774C18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../Three20Style/Three20Style";
+				INFOPLIST_FILE = Three20StyleDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.putao.Three20StyleDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03AA2ADF1D33800F00774C18 /* Build configuration list for PBXProject "Three20StyleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AA2AF91D33800F00774C18 /* Debug */,
+				03AA2AFA1D33800F00774C18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03AA2AFB1D33800F00774C18 /* Build configuration list for PBXNativeTarget "Three20StyleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AA2AFC1D33800F00774C18 /* Debug */,
+				03AA2AFD1D33800F00774C18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03AA2ADC1D33800F00774C18 /* Project object */;
+}
