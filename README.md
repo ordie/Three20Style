@@ -93,7 +93,7 @@ Quartz 2D提供的API基本上都是纯C形式的，没有面向对象的封装�
 使用起来非常简单，首先需要创建一个TTView，然后给它的style属性赋值即可：
 
 ```objective-c
-// 下面代码创建一个白色背景，黑色边框（边框宽度为1单位宽度）
+// 下面代码创建一个白色背景，黑色边框（边框宽度为1单位宽度）的矩形
 CGRect frame = CGRectMake(50, 50, 150, 50);
 TTView* view = [[TTView alloc] initWithFrame:frame];
 view.style = [TTSolidFillStyle styleWithColor:[UIColor whiteColor] next:
