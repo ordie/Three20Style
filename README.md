@@ -79,7 +79,24 @@ Quartz 2D提供的API基本上都是纯C形式的，没有面向对象的封装�
 ```
   效果：![](https://github.com/ordie/Three20Style/blob/master/Resources/partially_rounded_rectangle.png)
 
-3 TTView类使用了TTStyle进行绘制，这是Three20Style框架唯一有侵入性的地方，即要想使用各种style效果，你的view必须继承自TTView：
+3 TTStyleContext
+
+```objective-c
+@interface TTStyleContext : NSObject
+
+@property (nonatomic)         CGRect    frame;
+@property (nonatomic)         CGRect    contentFrame;
+@property (nonatomic, retain) TTShape*  shape;
+@property (nonatomic, retain) UIFont*   font;
+@property (nonatomic)         BOOL      didDrawContent;
+
+@property (nonatomic, assign) id<TTStyleDelegate> delegate;
+
+@end
+```
+这个类提供绘制style所需的一些信息，在绘制每一个style时，都会依据这些信息并可能对这些信息中的某个属性做修改，例如TTInsetStyle会修改frame属性，这样后续style的绘制区域就会改变。
+
+4 TTView类使用了TTStyle进行绘制，这是Three20Style框架唯一有侵入性的地方，即要想使用各种style效果，你的view必须继承自TTView：
 
 ```objective-c
 @interface TTView : UIView <TTStyleDelegate> {
@@ -100,5 +117,31 @@ view.style = [TTSolidFillStyle styleWithColor:[UIColor whiteColor] next:
               [TTSolidBorderStyle styleWithColor:[UIColor blackColor] width:1 next:nil]];
 ```
 
+### 不想用TTView？
+或许你觉得TTView侵入性有点强，或者你已经有了自己的view类，不能从TTView继承，但又想使用TTStyle，怎么办？很简单，看看TTView怎么做的就知道了，主要关注drawRect方法：
+
+```objective-c
+- (void)drawRect:(CGRect)rect {
+  TTStyle* style = self.style;
+  if (nil != style) {
+    TTStyleContext* context = [[[TTStyleContext alloc] init] autorelease];
+    context.delegate = self;
+    context.frame = self.bounds;
+    context.contentFrame = context.frame;
+
+    [style draw:context];
+    if (!context.didDrawContent) {
+      [self drawContent:self.bounds];
+    }
+
+  } else {
+    [self drawContent:self.bounds];
+  }
+}
+```
+只需定义一个TTStyleContext类对象，然后设置相关的上下文属性，最后调用style的draw方法，传入context参数即可。具体用法详情见Demo工程中的NonTTView类。
+
+### Three20Demo工程中的style效果
 
 
+![](https://github.com/ordie/Three20Style/blob/master/Resources/demo_screenshot.png)
